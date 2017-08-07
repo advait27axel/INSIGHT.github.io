@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>INSIGHT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
+<link rel="stylesheet" href="newcss.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+
+</style>
+<body>
+<div id = "A" class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <img src="LOGO.png" id = "LOGO" width="20%" height="20%" padding-top="20%"/>
+  </div>
+  <div class="w3-display-middle">
+    <div id="buttonf">
+    <a href="#p2"><h1 class="w3-jumbo w3-animate-top">Let's Insight</h1></a>
+    </div>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <center><p id="wb">Welcome Aboard</p></center>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+  </div>
+</div>
+
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white" id="p2"  >
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+   
+  </div>
+  <div class="w3-display-middle">
+    <div class="container">
+		  <center><button id="btn" type="button" > Predict </button></center>
+		  <center><div id="img_container"><img id="disp_img"  src="samp.jpg"></div></center>
+		  
+		  <div class="overlay">
+			
+			<center><h1>Predictions</h1></center>
+			<ul id="list">
+      </ul>
+			
+		  </div>
+  
+		</div>
+		<center><input id="upload_btn" class = "button" type="file" accept="image/*" ></center>
+		
+
+  </div>
+ 
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script>
+<script src="main.js"></script>
+<script src="bundle.js"></script>
+
+</body>
+</html>

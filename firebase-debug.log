@@ -1,0 +1,24 @@
+[debug] [2017-08-01T06:56:39.904Z] ----------------------------------------------------------------------
+[debug] [2017-08-01T06:56:39.904Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-01T06:56:39.904Z] CLI Version:  3.9.1
+[debug] [2017-08-01T06:56:39.904Z] Platform:     win32
+[debug] [2017-08-01T06:56:39.904Z] Node Version: v6.10.2
+[debug] [2017-08-01T06:56:39.904Z] Time:         Tue Aug 01 2017 12:26:39 GMT+0530 (India Standard Time)
+[debug] [2017-08-01T06:56:39.904Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-01T06:56:39.951Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-01T06:56:39.951Z] > authorizing via signed-in user
+[debug] [2017-08-01T06:56:39.951Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-01T06:56:39.951Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/IoBJutOxjQ68sX2zdpvSGmSCtG33IM5jU45_gfV3juaj6mLc4y9lqbNUqoTKSlfx',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 01 2017 12:26:39 GMT+0530 (India Standard Time)
+[debug] [2017-08-01T06:56:40.357Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T06:56:40.404Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/image-rec-64ae5  
+ Tue Aug 01 2017 12:26:40 GMT+0530 (India Standard Time)
+[debug] [2017-08-01T06:56:41.889Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T06:56:41.904Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/image-rec-64ae5/tokens  
+ Tue Aug 01 2017 12:26:41 GMT+0530 (India Standard Time)
+[debug] [2017-08-01T06:56:43.123Z] <<< HTTP RESPONSE 200
